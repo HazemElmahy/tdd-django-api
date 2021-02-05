@@ -3,8 +3,8 @@ MAINTAINER Hazem Elmahy
 
 ENV PYTHONUNBUFFERED 1
 
-COPY ./requirments.txt /requirments.txt
-RUN pip install -r /requirments.txt
+COPY ./requirments.txt /requirements.txt
+RUN pip install -r /requirements.txt
 
 RUN mkdir /app
 WORKDIR /app
