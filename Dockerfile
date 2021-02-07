@@ -23,5 +23,5 @@ WORKDIR /app
 COPY ./app /app
 
 # not using root for security
-RUN adduser -D user
-USER user
+# RUN adduser -D user
+# USER user
